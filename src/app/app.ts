@@ -19,166 +19,168 @@ export class App {
   std_Url : string = 'https://cdn-icons-png.flaticon.com/512/3135/3135715.png';
 
 
-  products: any = [
-    {
-      "id": 1,
-      "name": "Wireless Bluetooth Earbuds",
-      "price": 59.99,
-      "qty": 100,
-      "image": "https://picsum.photos/id/1080/300/200",
-      "description": "Crystal-clear sound with 20-hour battery life and sweat resistance."
-    },
-    {
-      "id": 2,
-      "name": "Smartphone 128GB",
-      "price": 699.99,
-      "qty": 50,
-      "image": "https://picsum.photos/id/160/300/200",
-      "description": "6.5\" AMOLED display, triple-camera system, and 5G connectivity."
-    },
-    {
-      "id": 3,
-      "name": "Laptop 15.6\" FHD",
-      "price": 899.99,
-      "qty": 30,
-      "image": "https://picsum.photos/id/119/300/200",
-      "description": "Powerful Intel Core i7 processor, 16GB RAM, and 512GB SSD."
-    },
-    {
-      "id": 4,
-      "name": "Smart Watch",
-      "price": 199.99,
-      "qty": 75,
-      "image": "https://picsum.photos/id/175/300/200",
-      "description": "Track heart rate, workouts, and notifications with 7-day battery."
-    },
-    {
-      "id": 5,
-      "name": "Wireless Keyboard",
-      "price": 49.99,
-      "qty": 120,
-      "image": "https://picsum.photos/id/180/300/200",
-      "description": "Slim design with quiet keys and 2-year battery life."
-    },
-    {
-      "id": 6,
-      "name": "Gaming Mouse",
-      "price": 39.99,
-      "qty": 90,
-      "image": "https://picsum.photos/id/119/300/200",
-      "description": "RGB lighting, 6 programmable buttons, and 10,000 DPI sensor."
-    },
-    {
-      "id": 7,
-      "name": "Portable Bluetooth Speaker",
-      "price": 79.99,
-      "qty": 60,
-      "image": "https://picsum.photos/id/106/300/200",
-      "description": "360° sound, waterproof, and 12-hour playtime."
-    },
-    {
-      "id": 8,
-      "name": "4K Ultra HD TV 55\"",
-      "price": 599.99,
-      "qty": 25,
-      "image": "https://picsum.photos/id/157/300/200",
-      "description": "HDR10+, smart TV with built-in Alexa and Dolby Atmos."
-    },
-    {
-      "id": 9,
-      "name": "Noise Cancelling Headphones",
-      "price": 349.99,
-      "qty": 40,
-      "image": "https://picsum.photos/id/136/300/200",
-      "description": "Industry-leading ANC, 30-hour battery, and touch controls."
-    },
-    {
-      "id": 10,
-      "name": "Fitness Tracker",
-      "price": 79.99,
-      "qty": 85,
-      "image": "https://picsum.photos/id/163/300/200",
-      "description": "Track steps, sleep, and SpO2 with color AMOLED display."
-    },
-    {
-      "id": 11,
-      "name": "External Hard Drive 1TB",
-      "price": 59.99,
-      "qty": 70,
-      "image": "https://picsum.photos/id/119/300/200",
-      "description": "USB 3.0, plug-and-play, compatible with PC and Mac."
-    },
-    {
-      "id": 12,
-      "name": "Wireless Charging Pad",
-      "price": 29.99,
-      "qty": 110,
-      "image": "https://picsum.photos/id/160/300/200",
-      "description": "Fast-charging Qi-certified pad for smartphones and earbuds."
-    },
-    {
-      "id": 13,
-      "name": "Stainless Steel Coffee Maker",
-      "price": 129.99,
-      "qty": 35,
-      "image": "https://picsum.photos/id/225/300/200",
-      "description": "12-cup programmable brewer with thermal carafe."
-    },
-    {
-      "id": 14,
-      "name": "Robot Vacuum Cleaner",
-      "price": 299.99,
-      "qty": 20,
-      "image": "https://picsum.photos/id/1077/300/200",
-      "description": "Self-charging, app-controlled, and works with Alexa."
-    },
-    {
-      "id": 15,
-      "name": "Air Fryer",
-      "price": 89.99,
-      "qty": 45,
-      "image": "https://picsum.photos/id/24/300/200",
-      "description": "5.8-quart capacity with 7 presets and 1700W power."
-    },
-    {
-      "id": 16,
-      "name": "Electric Toothbrush",
-      "price": 49.99,
-      "qty": 95,
-      "image": "https://picsum.photos/id/203/300/200",
-      "description": "3 brushing modes, 30-day battery, and pressure sensor."
-    },
-    {
-      "id": 17,
-      "name": "Digital Camera",
-      "price": 449.99,
-      "qty": 30,
-      "image": "https://picsum.photos/id/250/300/200",
-      "description": "24.2MP sensor, 4K video, and 3\" flip touchscreen."
-    },
-    {
-      "id": 18,
-      "name": "Electric Kettle",
-      "price": 39.99,
-      "qty": 65,
-      "image": "https://picsum.photos/id/431/300/200",
-      "description": "1.7L capacity, auto shut-off, and boil-dry protection."
-    },
-    {
-      "id": 19,
-      "name": "Blender",
-      "price": 59.99,
-      "qty": 50,
-      "image": "https://picsum.photos/id/541/300/200",
-      "description": "1000W motor, 6-speed control, and BPA-free jar."
-    },
-    {
-      "id": 20,
-      "name": "Smart Thermostat",
-      "price": 199.99,
-      "qty": 40,
-      "image": "https://picsum.photos/id/628/300/200",
-      "description": "Learns your schedule and saves energy with geofencing."
-    }
-  ]
+  products = [
+  {
+    id: 1,
+    name: "Remote Control Car",
+    price: 39.99,
+    qty: 80,
+    image: "https://m.media-amazon.com/images/I/71c-9SYk3pL.jpg", 
+    description: "High-speed RC car with rechargeable battery and LED lights."
+  },
+  {
+    id: 2,
+    name: "Building Blocks Set",
+    price: 29.99,
+    qty: 120,
+    image: "https://m.media-amazon.com/images/I/81D9vyIHXbL.jpg",
+    description: "100-piece colorful building block set for creative play."
+  },
+  {
+    id: 3,
+    name: "Stuffed Teddy Bear",
+    price: 19.99,
+    qty: 150,
+    image: "https://m.media-amazon.com/images/I/91gbfULvW0L.jpg",
+    description: "Soft plush teddy bear, 18 inches tall, safe for all ages."
+  },
+  {
+    id: 4,
+    name: "Toy Kitchen Set",
+    price: 59.99,
+    qty: 45,
+    image: "https://m.media-amazon.com/images/I/614bAev2oiL.jpg",
+    description: "Interactive play kitchen with utensils and pretend food."
+  },
+  {
+    id: 5,
+    name: "Action Figure Pack",
+    price: 24.99,
+    qty: 95,
+    image: "https://m.media-amazon.com/images/I/81Mp2WJXmxL._UF894,1000_QL80_.jpg",
+    description: "Superhero action figures, posable and durable."
+  },
+  {
+    id: 6,
+    name: "Wooden Train Set",
+    price: 34.99,
+    qty: 60,
+    image: "https://m.media-amazon.com/images/I/81XsmUmi9HL.jpg",
+    description: "Classic wooden train with tracks and bridges."
+  },
+  {
+    id: 7,
+    name: "Dollhouse with Furniture",
+    price: 79.99,
+    qty: 30,
+    image: "https://m.media-amazon.com/images/I/71WQGP2ElsL.jpg",
+    description: "Multi-story dollhouse with miniature furniture set."
+  },
+  {
+    id: 8,
+    name: "Educational Tablet Toy",
+    price: 49.99,
+    qty: 110,
+    image: "https://m.media-amazon.com/images/I/71J8RDzgIyL.jpg",
+    description: "Learning tablet with interactive games and songs."
+  },
+  {
+    id: 9,
+    name: "Robot Toy",
+    price: 44.99,
+    qty: 70,
+    image: "https://m.media-amazon.com/images/I/61f3Th2i6lL.jpg",
+    description: "Programmable toy robot with lights and voice features."
+  },
+  {
+    id: 10,
+    name: "Puzzle Set 100pcs",
+    price: 14.99,
+    qty: 200,
+    image: "https://m.media-amazon.com/images/I/81scgkD5uCL._UF894,1000_QL80_.jpg",
+    description: "Colorful animal puzzle set, 100 pieces."
+  },
+  {
+    id: 11,
+    name: "Bubble Machine",
+    price: 22.99,
+    qty: 85,
+    image: "https://m.media-amazon.com/images/I/71VC6SkLI6L._UF894,1000_QL80_.jpg",
+    description: "Automatic bubble maker for outdoor fun."
+  },
+  {
+    id: 12,
+    name: "Play Tent Castle",
+    price: 38.99,
+    qty: 50,
+    image: "https://m.media-amazon.com/images/I/71luat2Ee7L.jpg",
+    description: "Indoor princess play tent for toddlers and kids."
+  },
+  {
+    id: 13,
+    name: "Musical Toy Drum",
+    price: 18.99,
+    qty: 65,
+    image: "https://m.media-amazon.com/images/I/71EIMV4jDFL._UF894,1000_QL80_.jpg",
+    description: "Electronic toy drum set with sounds and lights."
+  },
+  {
+    id: 14,
+    name: "Toy Doctor Kit",
+    price: 27.99,
+    qty: 90,
+    image: "https://m.media-amazon.com/images/I/71iZCEcbGFL.jpg",
+    description: "Complete toy medical kit with stethoscope and tools."
+  },
+  {
+    id: 15,
+    name: "RC Helicopter",
+    price: 59.99,
+    qty: 40,
+    image: "https://m.media-amazon.com/images/I/71K2ASj-1ML._UF1000,1000_QL80_.jpg",
+    description: "Remote-controlled mini helicopter with gyro stabilization."
+  },
+  {
+    id: 16,
+    name: "Toy Tool Set",
+    price: 23.99,
+    qty: 100,
+    image: "https://m.media-amazon.com/images/I/713xUqgxlNL.jpg",
+    description: "Pretend play tool set with toolbox, drill, and wrench."
+  },
+  {
+    id: 17,
+    name: "Plush Animal Set",
+    price: 32.99,
+    qty: 130,
+    image: "https://m.media-amazon.com/images/I/812E9pPGGNL._UF894,1000_QL80_.jpg",
+    description: "Set of 5 soft animal plushies, perfect for cuddling."
+  },
+  {
+    id: 18,
+    name: "Race Track Set",
+    price: 49.99,
+    qty: 75,
+    image: "https://m.media-amazon.com/images/I/81hXdfc5fyL.jpg",
+    description: "DIY car racing track with loops and curves."
+  },
+  {
+    id: 19,
+    name: "LEGO Compatible Bricks",
+    price: 25.99,
+    qty: 140,
+    image: "https://m.media-amazon.com/images/I/714sQpo-wFL._UF894,1000_QL80_.jpg",
+    description: "Compatible building bricks with over 500 pieces."
+  },
+  {
+    id: 20,
+    name: "Toy Cash Register",
+    price: 33.99,
+    qty: 55,
+    image: "https://m.media-amazon.com/images/I/81dj0depb+L.jpg",
+    description: "Interactive cash register toy with scanner and play money."
+  }
+]
+
+
 }
