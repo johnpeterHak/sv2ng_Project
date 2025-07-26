@@ -14,7 +14,7 @@ import { ProductCard } from './product-card/product-card';
 })
 export class App {
    title : string = 'ng_Test';
-  std_name: string = 'Punleur';
+  std_name: string = 'peterjohnhak';
   std_age : number = 25;
   std_Url : string = 'https://cdn-icons-png.flaticon.com/512/3135/3135715.png';
 
